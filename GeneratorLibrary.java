@@ -10,7 +10,6 @@ import java.util.Random;
 
 /**
  * Library of methods used for random text generation
- * @author Joe Zachary and <your name goes here>
  */
 public class GeneratorLibrary
 {
