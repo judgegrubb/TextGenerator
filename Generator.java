@@ -104,12 +104,12 @@ public class Generator {
         if (yesOrNo == JOptionPane.YES_OPTION) {
         	// Takes in a string and displays a saving pane to have the user save their file.
 		    // attempt to save the file
-            // JFileChooser chooser = new JFileChooser();
-    	    chooser.setCurrentDirectory(new File("/"));
-    	    int retrival = chooser.showSaveDialog(null);
+            JFileChooser chooser1 = new JFileChooser();
+    	    chooser1.setCurrentDirectory(new File("/"));
+    	    int retrival = chooser1.showSaveDialog(null);
     	    if (retrival == JFileChooser.APPROVE_OPTION) {
     	        try {
-    	            FileWriter fw = new FileWriter(chooser.getSelectedFile());
+    	            FileWriter fw = new FileWriter(chooser1.getSelectedFile());
     	            fw.write(reply.toString());
     	            fw.close();
     	            JOptionPane.showMessageDialog(null, "File was successfully saved");
