@@ -9,7 +9,6 @@ import org.junit.Test;
 
 /**
  * Test methods for the GeneratorLibrary
- * @author Joe Zachary
  */
 public class GeneratorLibraryTester
 {
